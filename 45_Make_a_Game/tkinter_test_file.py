@@ -1,4 +1,5 @@
 import Tkinter
+# or use import Tkinter as TK, to shorten call TK.Button for example
 import tkMessageBox
 
 top = Tkinter.Tk()
@@ -57,6 +58,10 @@ B9.pack()
 B10 = Tkinter.Entry(top, text = "Entry Box")
 B10.pack()
 
+redbutton = Tkinter.Button(top, text="Red", fg="red")
+redbutton.pack( side = Tkinter.BOTTOM)
+
 #run loop
 top.mainloop()
+
 
